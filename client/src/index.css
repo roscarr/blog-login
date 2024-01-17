@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #222;
+  color: beige;
+}
+
+@layer components {
+  
+  .image{
+    @apply max-w-full h-auto
+  }
+  .title{
+    @apply font-bold text-xl
+  }.test{
+    @apply  font-light text-sm
+  }
+  .info{
+    @apply  font-light text-xs text-gray-400 mb-3 mt-3
+  }
+  .input{
+    @apply block mb-2 w-full p-2  rounded-md bg-[#525050] text-white
+  }
+}
